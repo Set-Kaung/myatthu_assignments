@@ -1,6 +1,6 @@
 List_1 = [3, 5, 7, 8, 9, 0]
 List_2 = [5, 0]
-found = []
+found:list[int] = []
 
 #first we make a copy because we want to keep the original one
 List_1_copy = List_1.copy()
