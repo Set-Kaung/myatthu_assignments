@@ -1,7 +1,7 @@
-def SplitType(strList:list[str]):
-    digits:list[str] = []
-    alphas:list[str] = []
-    special_chars:list[str] = []
+def SplitType(strList):
+    digits = []
+    alphas = []
+    special_chars = []
 
     for element in strList:
         special = ''
